@@ -7,14 +7,14 @@ site:
   template: book-theme
   nav:
     - title: Ana Sayfa
-      url: /index.md
+      file: index.md
     - title: C++ Notları
       children:
         - title: Giriş
-          url: /cpp/giris.md
-        - title: Metropolis
-          url: /cpp/metropolis.md
+          file: cpp/giris.md
+        - title: Metropolis Algoritması
+          file: cpp/metropolis.md
     - title: Python Notları
       children:
         - title: Görselleştirme
-          url: /python/gorsellestirme.md
+          file: python/gorsellestirme.md
