@@ -1,4 +1,4 @@
-version: 1  # Bu satırı mutlaka ekle!
+version: 1
 project:
   title: Hesaplamalı Fizik Notları
   author: Ciwan Yıldırım
@@ -6,12 +6,15 @@ project:
 site:
   template: book-theme
   nav:
-    - file: index.md
-    - is: folder
-      title: C++ Notları
+    - title: Ana Sayfa
+      url: /index.md
+    - title: C++ Notları
       children:
-        - file: cpp/ders1.md
-    - is: folder
-      title: Python Notları
+        - title: Giriş
+          url: /cpp/giris.md
+        - title: Metropolis
+          url: /cpp/metropolis.md
+    - title: Python Notları
       children:
-        - file: python/analiz.md
+        - title: Görselleştirme
+          url: /python/gorsellestirme.md
